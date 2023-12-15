@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import Player from '../app/Player/page'
+import IndexPage from './Player/page'
 
 export default function Home() {
   return (
    <div>
-    <Player/>
+    <IndexPage/>
    </div>
   )
 }

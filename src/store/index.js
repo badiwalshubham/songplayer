@@ -1,6 +1,6 @@
 "use client"
 import { applyMiddleware, compose } from "redux"
-import { legacy_createStore as createStore } from 'redux'
+import { createStore } from 'redux'
 import thunk from "redux-thunk"
 import * as LocalForage from "localforage"
 import {

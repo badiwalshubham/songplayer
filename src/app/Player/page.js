@@ -11,7 +11,7 @@ import  Musicplayer  from "../Musicplayer/page"
 import store from "../../store"
 import mediaNotification from "../../utils/media-session"
 
-const IndexPage = props => {
+const IndexPage = () => {
   const muiTheme = createTheme({
     palette: {
       primary: deepPurple,
